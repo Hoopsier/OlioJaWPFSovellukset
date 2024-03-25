@@ -5,13 +5,19 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Renan Horuz
+ */
 namespace Harjoitus_2
 {
     internal class Opiskelija
     {
+        //Muuttujat
         public int OPP;
         public string name;
         public string OID;
+
+        //Luokan konstruktorin luonti
         public Opiskelija(int _OPP,string _name,string _OID) 
         {
             OPP = _OPP;
@@ -19,6 +25,7 @@ namespace Harjoitus_2
             OID = _OID;
         }
 
+        //luokan toiminnot
         public void TulostaData()
         {
             Console.WriteLine(name + " " + OPP + " " + OID);

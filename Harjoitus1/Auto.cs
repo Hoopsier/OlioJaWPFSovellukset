@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+ * Renan Horuz
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -10,9 +13,12 @@ namespace Harjoitus1
     
     internal class Car
     {
-        public int? speed;
+        //Muuttujat
+        public int? speed;  //saa olla null
         public string brand;
         public string model;
+
+        //Tehdään auto konstruktori
         public Car(int? _speed,string _brand,string _model) 
         {
             speed = _speed;
