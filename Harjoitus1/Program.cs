@@ -1,5 +1,5 @@
 ﻿/*
- * Renan Horuz
+ * Renan Horuz EI VIDEOITA KÄYTETTYNÄ TEHTÄVIIN (en jaksa tehä kotitehtäviä JA harjoituksia täysin yksin)
  */
 using Harjoitus1;
 
