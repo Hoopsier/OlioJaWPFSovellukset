@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jHarjoitus 11", "Harjoitus 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT Harj 12", "KT Harj 12\KT Harj 12.csproj", "{98D298BB-5B6F-44E7-962E-18C12837FF2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talo WPF", "Talo WPF\Talo WPF.csproj", "{3B052005-0526-4F40-BBBD-93ABC1A30176}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{98D298BB-5B6F-44E7-962E-18C12837FF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98D298BB-5B6F-44E7-962E-18C12837FF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98D298BB-5B6F-44E7-962E-18C12837FF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B052005-0526-4F40-BBBD-93ABC1A30176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B052005-0526-4F40-BBBD-93ABC1A30176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B052005-0526-4F40-BBBD-93ABC1A30176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B052005-0526-4F40-BBBD-93ABC1A30176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

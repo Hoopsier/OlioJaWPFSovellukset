@@ -1,0 +1,30 @@
+﻿<Window x:Class="Talo_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Talo_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Ellipse x:Name="oValo" HorizontalAlignment="Left" Height="45" Margin="277,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="109" Fill="Black"/>
+        <Button x:Name="LSwitch" Content="Button" HorizontalAlignment="Left" Margin="312,320,0,0" VerticalAlignment="Top" Click="LSwitch_Click"/>
+        <Ellipse x:Name="kValo" HorizontalAlignment="Left" Height="45" Margin="549,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="111" Fill="Black"/>
+        <Button x:Name="LSwitch_Copy" Content="Button" HorizontalAlignment="Left" Margin="585,320,0,0" VerticalAlignment="Top" Click="LSwitchKeit_Click"/>
+        <Button x:Name="opTemp" Content="+" HorizontalAlignment="Left" Margin="494,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Click="pTempTask"/>
+        <Button x:Name="omTemp" Content="-" HorizontalAlignment="Center" Margin="0,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Click="mTempTask"/>
+        <TextBlock x:Name="ocTemp" HorizontalAlignment="Left" Margin="426,194,0,0" TextWrapping="Wrap" Text="20" VerticalAlignment="Top"/>
+        <Image x:Name="Dor" HorizontalAlignment="Left" Height="100" Margin="144,232,0,0" VerticalAlignment="Top" Width="85" Source="/Dor.png" Stretch="Fill" RenderTransformOrigin="0,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button x:Name="Knob" Content="Knob" HorizontalAlignment="Left" Margin="144,272,0,0" VerticalAlignment="Top" Click="DoorFunct"/>
+        <Button Content="Lock" HorizontalAlignment="Left" Margin="144,292,0,0" VerticalAlignment="Top" Click="DoorFunct2"/>
+    </Grid>
+</Window>

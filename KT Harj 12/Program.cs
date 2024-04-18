@@ -28,14 +28,14 @@ internal class Program
         {
             if (kortit[i].kuva != null) //check if the card has an image
             {
-                Console.WriteLine(kortit[i].Muoto +" "+ kortit[i].kuva);
+                Console.WriteLine(kortit[i].Muoto);
             }
             else
             {
-                Console.WriteLine(kortit[i].Muoto + " " + kortit[i].Numero);
+                Console.WriteLine(kortit[i].Muoto);
             }
         }
         //final message
-        Console.WriteLine("\nKortteja on siis "+kortit.Count+"\n\n");
+        //Console.WriteLine("\nKortteja on siis "+kortit.Count+"\n\n");
     }
 }
