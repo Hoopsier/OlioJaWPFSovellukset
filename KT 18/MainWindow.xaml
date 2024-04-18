@@ -1,0 +1,31 @@
+﻿<Window x:Class="KT_18.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KT_18"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid Background="#FFF585FF">
+            <Button x:Name="_7" Content="7" HorizontalAlignment="Left" Margin="228,135,0,0" VerticalAlignment="Top" Width="79" Height="62" Click="onClick"/>
+            <Button x:Name="_8" Content="8" HorizontalAlignment="Left" Margin="331,135,0,0" VerticalAlignment="Top" Width="79" Height="62" Click="onClick"/>
+            <Button x:Name="_9" Content="9" HorizontalAlignment="Left" Margin="436,135,0,0" VerticalAlignment="Top" Width="79" Height="62" Click="onClick"/>
+            <Button x:Name="plusBut" Content="+" HorizontalAlignment="Left" Margin="538,135,0,0" VerticalAlignment="Top" Width="80" Height="62" Click="pClick"/>
+            <Button x:Name="_4" Content="4" HorizontalAlignment="Left" Margin="228,208,0,0" VerticalAlignment="Top" Width="79" Height="62" Click="onClick"/>
+            <Button x:Name="_5" Content="5" HorizontalAlignment="Left" Margin="331,208,0,0" VerticalAlignment="Top" Width="79" Height="62" Click="onClick"/>
+            <Button x:Name="_6" Content="6" HorizontalAlignment="Left" Margin="436,208,0,0" VerticalAlignment="Top" Width="79" Height="62" Click="onClick"/>
+            <Button x:Name="MinusBut" Content="-" HorizontalAlignment="Left" Margin="538,208,0,0" VerticalAlignment="Top" Width="80" Height="62" Click="mClick"/>
+            <Button x:Name="_1" Content="1" HorizontalAlignment="Left" Margin="228,285,0,0" VerticalAlignment="Top" Width="79" Height="63" Click="onClick"/>
+            <Button x:Name="_2" Content="2" HorizontalAlignment="Left" Margin="331,285,0,0" VerticalAlignment="Top" Width="79" Height="63" Click="onClick"/>
+            <Button x:Name="_3" Content="3" HorizontalAlignment="Left" Margin="436,285,0,0" VerticalAlignment="Top" Width="79" Height="63" Click="onClick"/>
+            <Button x:Name="multiBut" Content="*" HorizontalAlignment="Left" Margin="538,285,0,0" VerticalAlignment="Top" Width="80" Height="63" Click="muClick"/>
+            <Button x:Name="CEBut" Content="CE" HorizontalAlignment="Left" Margin="228,362,0,0" VerticalAlignment="Top" Width="79" Height="62" Click="CEClick"/>
+            <Button x:Name="_0" Content="0" HorizontalAlignment="Left" Margin="331,362,0,0" VerticalAlignment="Top" Width="79" Height="62" Click="onClick"/>
+            <Button x:Name="equalsBut" Content="=" HorizontalAlignment="Left" Margin="436,362,0,0" VerticalAlignment="Top" Width="79" Height="62" Click="eqClick"/>
+            <Button x:Name="divBut" Content="/" HorizontalAlignment="Left" Margin="538,362,0,0" VerticalAlignment="Top" Width="80" Height="62" Click="dClick"/>
+            <TextBox x:Name="TxtResult" HorizontalAlignment="Left" Margin="228,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390" Height="49"/>
+        </Grid>
+
+    </Grid>
+</Window>
