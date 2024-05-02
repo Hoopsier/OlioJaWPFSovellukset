@@ -95,7 +95,7 @@ namespace KT_18
 
         private void CEClick(object sender, RoutedEventArgs e)
         {
-
+            TxtResult.Text = null;
         }
     }
 }

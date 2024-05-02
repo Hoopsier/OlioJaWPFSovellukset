@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT 21", "KT 21\KT 21.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT 22", "kt 22\KT 22.csproj", "{D89741C4-3E79-4A99-AD74-80A9A134A84C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT23", "KT23\KT23.csproj", "{3D2542DF-A095-459C-BF2A-2189BA68948D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D89741C4-3E79-4A99-AD74-80A9A134A84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D89741C4-3E79-4A99-AD74-80A9A134A84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D89741C4-3E79-4A99-AD74-80A9A134A84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2542DF-A095-459C-BF2A-2189BA68948D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2542DF-A095-459C-BF2A-2189BA68948D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2542DF-A095-459C-BF2A-2189BA68948D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2542DF-A095-459C-BF2A-2189BA68948D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
