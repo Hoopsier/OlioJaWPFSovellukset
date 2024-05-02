@@ -1,0 +1,28 @@
+﻿<Window x:Class="kt_22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kt_22"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle x:Name="Ikkuna" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="107">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#BF00C8FF" Offset="0.572"/>
+                    <GradientStop Color="#3F00C8FF" Offset="0.848"/>
+                    <GradientStop Color="#9F00C8FF" Offset="0"/>
+                    <GradientStop Color="#3300C8FF" Offset="0.322"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBox x:Name="Leveys" HorizontalAlignment="Left" Margin="660,60,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="120" TextChanged="WidthUpdate"/>
+        <TextBox x:Name="Korkeus" HorizontalAlignment="Left" Margin="660,83,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="120" TextChanged="HeightUpdate"/>
+        <TextBlock HorizontalAlignment="Left" Margin="620,61,0,0" TextWrapping="Wrap" Text="Leveys" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="616,84,0,0" TextWrapping="Wrap" Text="Korkeus" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="609,122,0,0" TextWrapping="Wrap" Text="Yhteensä" VerticalAlignment="Top"/>
+        <Button x:Name="Laske" Content="Laske" HorizontalAlignment="Left" Margin="660,143,0,0" VerticalAlignment="Top" Click="UpdateTotal"/>
+        <TextBlock x:Name="Total" HorizontalAlignment="Left" Margin="662,122,0,0" TextWrapping="Wrap" Text="10000 px^2" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

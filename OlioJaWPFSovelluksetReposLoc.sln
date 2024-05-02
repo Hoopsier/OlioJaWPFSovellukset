@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talo WPF", "Talo WPF\Talo W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT 18", "KT 18\KT 18.csproj", "{F3B5BE9B-88CD-47E8-8E45-917ED8BAE448}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT 21", "KT 21\KT 21.csproj", "{2411968C-098B-464C-A3DA-3CA429D074C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT 22", "kt 22\KT 22.csproj", "{D89741C4-3E79-4A99-AD74-80A9A134A84C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{F3B5BE9B-88CD-47E8-8E45-917ED8BAE448}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3B5BE9B-88CD-47E8-8E45-917ED8BAE448}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3B5BE9B-88CD-47E8-8E45-917ED8BAE448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2411968C-098B-464C-A3DA-3CA429D074C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2411968C-098B-464C-A3DA-3CA429D074C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2411968C-098B-464C-A3DA-3CA429D074C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2411968C-098B-464C-A3DA-3CA429D074C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D89741C4-3E79-4A99-AD74-80A9A134A84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D89741C4-3E79-4A99-AD74-80A9A134A84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D89741C4-3E79-4A99-AD74-80A9A134A84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D89741C4-3E79-4A99-AD74-80A9A134A84C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
