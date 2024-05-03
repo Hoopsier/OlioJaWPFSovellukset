@@ -1,0 +1,24 @@
+﻿<Window x:Class="KT24.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KT24"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="Choice" HorizontalAlignment="Left" Margin="16,53,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="choice">
+            <ComboBoxItem Content="Lotto"/>
+            <ComboBoxItem Content="Viking Lotto"/>
+            <ComboBoxItem Content="Eurojackpot"/>
+        </ComboBox>
+        <TextBox x:Name="Amount" HorizontalAlignment="Left" Margin="150,55,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" PreviewTextInput="TextBox_PreviewTextInput"/>
+        <Button Content="Tulosta" HorizontalAlignment="Left" Margin="285,55,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Tyhjennä" HorizontalAlignment="Left" Margin="719,55,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="150,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" Width="83"><Run Text="Rivit"/><Run Language="fi-fi" Text=" 1-6"/><Run Text=":"/></TextBlock>
+        <ScrollViewer Margin="16,107,261,55">
+            <TextBlock x:Name="rNum" Height="836" Width="500" TextWrapping="Wrap"/>
+        </ScrollViewer>
+
+    </Grid>
+</Window>
