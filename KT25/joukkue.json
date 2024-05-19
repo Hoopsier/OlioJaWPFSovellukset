@@ -1,0 +1,40 @@
+[
+  {
+    "Nimi": "Esimerkkijoukkue",
+    "Kotikaupunki": "Kaupunki",
+    "Pelaajat": {
+      "26": {
+        "Etunimi": "Mark",
+        "Sukunimi": "Swaws",
+        "PelaajaNumero": 26,
+        "Joukkue": "HJK"
+      },
+      "27": {
+        "Etunimi": "Dark",
+        "Sukunimi": "Swaws",
+        "PelaajaNumero": 27,
+        "Joukkue": "HJK"
+      }
+      // Add more players as needed
+    }
+  },
+  {
+    "Nimi": "ToinenJoukkue",
+    "Kotikaupunki": "ToinenKaupunki",
+    "Pelaajat": {
+      "28": {
+        "Etunimi": "Clark",
+        "Sukunimi": "Swaws",
+        "PelaajaNumero": 28,
+        "Joukkue": "HJK"
+      },
+      "29": {
+        "Etunimi": "Fork",
+        "Sukunimi": "Swaws",
+        "PelaajaNumero": 29,
+        "Joukkue": "HJK"
+      }
+      // Add more players as needed
+    }
+  }
+]

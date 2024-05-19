@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT23", "KT23\KT23.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT24", "KT24\KT24.csproj", "{19504E91-EA1F-498E-9992-B60948354B27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT25", "KT25\KT25.csproj", "{9D067423-12E8-4855-A608-BF0ACC6F1AEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{19504E91-EA1F-498E-9992-B60948354B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19504E91-EA1F-498E-9992-B60948354B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19504E91-EA1F-498E-9992-B60948354B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D067423-12E8-4855-A608-BF0ACC6F1AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D067423-12E8-4855-A608-BF0ACC6F1AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D067423-12E8-4855-A608-BF0ACC6F1AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D067423-12E8-4855-A608-BF0ACC6F1AEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
