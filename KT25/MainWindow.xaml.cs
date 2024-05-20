@@ -1,4 +1,7 @@
-﻿using Newtonsoft.Json;
+﻿/*
+ * Renan Horuz + assistance of gpt-4o due to time crunch of json not working
+ */
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
