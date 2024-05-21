@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT3", "KT3\KT3.csproj", "{7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT4", "KT4\KT4.csproj", "{C98AD309-6215-42FA-9778-5B4C399235FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KT8", "KT8\KT8.csproj", "{A46A09DA-C78C-4827-B96E-2D212DC82CF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{C98AD309-6215-42FA-9778-5B4C399235FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C98AD309-6215-42FA-9778-5B4C399235FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C98AD309-6215-42FA-9778-5B4C399235FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46A09DA-C78C-4827-B96E-2D212DC82CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46A09DA-C78C-4827-B96E-2D212DC82CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46A09DA-C78C-4827-B96E-2D212DC82CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46A09DA-C78C-4827-B96E-2D212DC82CF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
